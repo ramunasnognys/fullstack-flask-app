@@ -1,2 +1,9 @@
 pgdata/
 .vercel
+.env
+.DS_Store
+.venv
+.vscode
+.cursorignore
+frontend/node_modules
+
