@@ -13,8 +13,10 @@ interface CardComponentProps {
 const CardComponent: React.FC<CardComponentProps> = ({ card }) => {
     return (
         <div className="bg-white rounded-lg shadow-md p-4">
+
             <h1 className="text-2xl font-bold">{card.name}</h1>
             <p className="text-gray-500">{card.email}</p>
+            <p className="text-gray-500">ID: {card.id}</p>
         </div>
     );
 }
